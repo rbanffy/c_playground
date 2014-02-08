@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 main() {
-  char ch0 = 'a';
-  char ch1 = 'b';
-  char ch2 = 'c';
+  char ch0 = 'e';
+  char ch1 = 'v';
+  char ch2 = 'i';
 
   char *p = &ch1;
   printf("%d, %c, %c\n", p, *p, ch1);
