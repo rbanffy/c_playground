@@ -9,5 +9,10 @@ main() {
   printf("%d, %c, %c\n", p, *p, ch1);
   ++p;
   printf("%d, %c, %c\n", p, *p, ch1);
-  printf("%d, %d, %d\n", &ch0, &ch1, &ch2); // Prevent the compiler from optimizing away the char constants
+  p-=2;
+  printf("%d, %c, %c\n", p, *p, ch1);
+
+  printf("%d, %d, %d\n", &ch0, &ch1, &ch2); // Prevent a clever compiler from
+                                            // optimizing away the char "unused"
+                                            // constants
 }
