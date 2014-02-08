@@ -11,3 +11,6 @@
 *.lai
 *.la
 *.a
+
+# This is a toy project, anyway
+a.out
