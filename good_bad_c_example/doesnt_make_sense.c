@@ -4,5 +4,5 @@ main() {
   char ch = 'c';
   char *p = &ch;
   ++p;
-  printf(" %d, %s", p, p);
+  printf("%p, %s\n", p, p);
 }

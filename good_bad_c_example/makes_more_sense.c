@@ -4,5 +4,5 @@ main() {
   char *ch = "makes sense";
   char *p = ch;
   ++p;
-  printf(" %d, %s, %s", p, p, ch);
+  printf("%p, %s, %s\n", p, p, ch);
 }
