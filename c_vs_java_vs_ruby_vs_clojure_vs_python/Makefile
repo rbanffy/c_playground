@@ -21,6 +21,5 @@ benchmark:
 	time ./twoloops_with_counter
 	time ./twoloops_with_counter-O3
 	time python twoloops.py
-	time python twoloops_outer_j.py
 	time ruby twoloops.rb
 	time ruby twoloops_outer_j.rb
