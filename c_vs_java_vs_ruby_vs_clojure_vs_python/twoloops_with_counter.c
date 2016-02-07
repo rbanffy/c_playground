@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[])
-{
+void main() {
   int i = 0, j, counter = 0;
   while (i < 100000) {
     j = i;
@@ -12,5 +11,4 @@ int main(int argc, char *argv[])
     i++;
   }
   printf("%d iterations", counter);
-  return 0;
 }
